@@ -29,7 +29,7 @@ class CreateRisksTable extends Migration
             $table->enum('odontology', ['SI', 'NO'])->default('NO');
             $table->date('date_odontology');
             $table->enum('surgery', ['SI', 'NO'])->default('NO');
-            $table->string('surgery');
+            $table->string('type_surgery');
             $table->date('date_surgery');
             $table->enum('hospitalized', ['SI', 'NO'])->default('NO');
             $table->date('date_hospitalized');
